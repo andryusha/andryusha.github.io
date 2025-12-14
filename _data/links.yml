@@ -1,0 +1,6 @@
+- name: Гитхаб
+  address: https://github.com/andryusha
+  print_address: github.com/andryusha
+- name: Резюме
+  address: https://docs.google.com/document/d/1UvcyNN6Xc3KFVpmzWHVVp6bckRVaGBh3N4QHdkiXmn8/export?format=pdf
+  print_address: andryusha.com/cv

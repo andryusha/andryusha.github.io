@@ -1,0 +1,5 @@
+<ul>
+  {% for link in site.data.links %}
+  <li><a href="{{ link.address }}" data-print="{{ link.print_address }}">{{ link.name }}</a></li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,15 @@
+{% assign start_date = page.created_at | default: page.date %}
+{% assign start_year = start_date | date: "%Y" %}
+
+<footer>
+  ©
+  {% if page.footer_years %}
+  {{ page.footer_years }}
+  {% else %}
+  <span class="js-copyright" data-start-year="{{ start_year }}">
+    {{ start_year }}
+  </span>
+  {% endif %}
+  <br>
+  <a href="mailto:{{site.email}}">{{ site.email }}</a>
+</footer>
