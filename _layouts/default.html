@@ -6,11 +6,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>{{ page.title }}</title>
   {% seo title=false %}
-  <link rel="preload" href="{{ '/assets/css/styles.css' | relative_url }}?v={{ site.assets_version }}" as="style"
-    onload="this.rel='stylesheet'">
-  <noscript>
-    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}?v={{ site.assets_version }}">
-  </noscript>
+  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}?v={{ site.assets_version }}">
   {% feed_meta %}
 </head>
 
