@@ -6,8 +6,11 @@ baseurl: ""
 permalink: /:title
 lang: ru
 timezone: Europe/Moscow
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-redirect-from
+
+assets_version: 1
