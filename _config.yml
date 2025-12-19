@@ -12,5 +12,3 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-redirect-from
-
-assets_version: 1

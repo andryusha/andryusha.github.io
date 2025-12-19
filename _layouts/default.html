@@ -6,13 +6,13 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>{{ page.title }}</title>
   {% seo title=false %}
-  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}?v={{ site.assets_version }}">
+  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
   {% feed_meta %}
 </head>
 
 <body class="{{ page.body_class }}">
   {{ content }}
-  <script type="module" src="{{ '/assets/js/main.js' | relative_url }}?v={{ site.assets_version }}"></script>
+  <script type="module" src="{{ '/assets/js/main.js' | relative_url }}"></script>
 </body>
 
 </html>
