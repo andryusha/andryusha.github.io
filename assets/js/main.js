@@ -1,9 +1,3 @@
-if (document.readyState === "loading") {
-  document.addEventListener("DOMContentLoaded", boot)
-} else {
-  boot()
-}
-
 function boot() {
   initCopyright()
 }
@@ -21,4 +15,10 @@ function initCopyright() {
     el.textContent =
       Number(start) === currentYear ? start : `${start}…${currentYear}`
   })
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", boot)
+} else {
+  boot()
 }
